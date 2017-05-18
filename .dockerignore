@@ -1,0 +1,10 @@
+README.md
+LICENSE
+CONTRIBUTING.md
+*.iml
+*.ipr
+*.iws
+.travis.yml
+.gitattributes
+.gitignore
+tmp/
