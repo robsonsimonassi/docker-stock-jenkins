@@ -1,0 +1,13 @@
+sudo: required
+
+language: c
+
+services:
+  - docker
+
+before_install:
+  - docker info
+  - docker build -t stocksoftware/stock-jenkins .
+
+script:
+  - docker run -it --rm stocksoftware/stock-jenkins --version
